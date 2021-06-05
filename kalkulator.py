@@ -16,7 +16,6 @@ def dzielenie(x, y):
 def potegowanie(x, y):
     return x ** y
 
-
 wyjscie = False
 while wyjscie == False:
 
@@ -60,4 +59,4 @@ while wyjscie == False:
         print(x, "**", y, "=", potegowanie(x, y))
 
     else:
-        print("Kalkulator nie obejmuje takiej operacji!")
+        print("Kalkulator nie obejmuje takiej operacji")
