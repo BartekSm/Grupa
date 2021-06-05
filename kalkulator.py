@@ -1,22 +1,17 @@
-# kalkulator
+#kalkulator
 print("KALKULATOR")
-
 
 def dodawanie(x, y):
     return x + y
 
-
 def odejmowanie(x, y):
     return x - y
-
 
 def mnozenie(x, y):
     return x * y
 
-
 def dzielenie(x, y):
     return x / y
-
 
 def potegowanie(x, y):
     return x ** y
@@ -46,8 +41,8 @@ while wyjscie == False:
             print('Powrót do programu')
             choice = input("Wybierz (1/2/3/4/5/6):")
 
-    x = float(input("Podaj liczbe: "))
-    y = float(input("Podaj liczbe: "))
+    x = float(input("Podaj pierwszą liczbę: "))
+    y = float(input("Podaj drugą liczbę: "))
 
     if choice == '1':
         print(x, "+", y, "=", dodawanie(x, y))
@@ -65,4 +60,4 @@ while wyjscie == False:
         print(x, "**", y, "=", potegowanie(x, y))
 
     else:
-        print("Wybraleś nieistniejącą opcje!")
+        print("Kalkulator nie obejmuje takiej operacji!")
