@@ -40,19 +40,19 @@ while wyjscie == False:
     y = float(input("Podaj drugą liczbę: "))
 
     if choice == '1':
-        print("Suma wynosi: "x, "+", y, "=", dodawanie(x, y))
+        print("Suma wynosi: ", x, "+", y, "=", dodawanie(x, y))
 
     elif choice == '2':
-        print("Różnica wynosi: "x, "-", y, "=", odejmowanie(x, y))
+        print("Różnica wynosi: ", x, "-", y, "=", odejmowanie(x, y))
 
     elif choice == '3':
-        print("Iloczyn wynosi: "x, "*", y, "=", mnozenie(x, y))
+        print("Iloczyn wynosi: ", x, "*", y, "=", mnozenie(x, y))
 
     elif choice == '4':
-        print("Iloraz wynosi: "x, "/", y, "=", dzielenie(x, y))
+        print("Iloraz wynosi: ", x, "/", y, "=", dzielenie(x, y))
 
     elif choice == '5':
-        print("Wynik potęgowania: "x, "**", y, "=", potegowanie(x, y))
+        print("Wynik potęgowania: ", x, "**", y, "=", potegowanie(x, y))
 
     else:
         print("Kalkulator nie obejmuje takiej operacji")
